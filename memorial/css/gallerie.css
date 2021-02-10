@@ -1,0 +1,67 @@
+
+.books h3{
+    color:#81256C;
+    font-size: 29px;
+    line-height: 30px;
+    
+}
+.content{
+    width: 400px;
+    margin: 0 auto;
+}
+.books p{
+    font-size: 13px;  
+}
+.books img{
+    width: 237px;
+    height: 415px;
+    margin-right: 40px;
+    transition: 1s;
+    
+}
+.books img:hover{
+   transform:scale(1.05);
+}
+.books {
+    display: flex;
+    width:500px;
+    height: 415px;
+   padding-left: 50px;
+}
+
+.gallerie-ligne{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer{
+    margin-top: 100px;
+}
+@media screen and (max-width:800px){
+   
+    
+    .gallerie{
+        text-align: center;
+    }
+    .books{
+        display: unset;
+        
+    }
+    .gallerie-ligne{
+        display: unset;
+    }
+    .books img{
+        margin-top: 50px;
+    }
+    .books h3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .books p{
+        padding: 10%;
+    }
+    .content{
+        width: 100%;
+    }
+}
